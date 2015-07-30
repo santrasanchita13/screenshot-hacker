@@ -1,0 +1,30 @@
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Form1.resources
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Properties.Resources.resources
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.csproj.GenerateResource.Cache
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\bin\Debug\ScreenShot.exe
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\bin\Debug\ScreenShot.pdb
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.exe
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.pdb
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenShot_image.resources
+C:\Users\Sabya\Desktop\Documents\Visual Studio 2008\Projects\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenTime.resources
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.exe
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.pdb
+E:\ScreenShot\ScreenShot\bin\Debug\ScreenShot.exe
+E:\ScreenShot\ScreenShot\bin\Debug\ScreenShot.pdb
+E:\ScreenShot\ScreenShot\obj\Debug\ResolveAssemblyReference.cache
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Form1.resources
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Properties.Resources.resources
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenTime.resources
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenShot_image.resources
+E:\ScreenShot\ScreenShot\obj\Debug\ScreenShot.csproj.GenerateResource.Cache
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.exe
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.pdb
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\bin\Debug\ScreenShot.exe
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\bin\Debug\ScreenShot.pdb
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.csprojResolveAssemblyReference.cache
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Form1.resources
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.Properties.Resources.resources
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenTime.resources
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.ScreenShot_image.resources
+D:\1. Sanchita\C#\Pahari\ScreenShot\ScreenShot\obj\Debug\ScreenShot.csproj.GenerateResource.Cache

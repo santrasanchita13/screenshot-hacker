@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" >
+    <title>ScreenShot</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1
+        {
+            height: 1000px;
+        }
+        .style1
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .style3
+        {
+            height: 50px;
+        }
+        .style4
+        {
+            height: 42px;
+        }
+        .style5
+        {
+            height: 42px;
+            width: 90%;
+        }
+        .style6
+        {
+            height: 50px;
+            width: 90%;
+        }
+        .style7
+        {
+            width: 90%;
+        }
+    </style>
+</head>
+<body >
+    <form id="form1" runat="server" style="font-family: Calibri; font-size: large; color: #008080; background-image: url('/WebSite3/2.jpg'); background-repeat: repeat; background-attachment: fixed; visibility: visible; height: 1000px; font-weight: bold; vertical-align:top">
+    
+    <table class="style1">
+        <tr>
+            <td class="style6" align="center">
+            <h1 style="border-style: double; border-width: thick; color:Olive; font-family: 'Lucida Calligraphy'; font-size: xx-large; font-weight: bold; font-style: normal; background-color: #FBCDA4; width: 233px; background-image: url('/WebSite3/2.jpg');">Screenshot</h1>
+            </td>
+            <td class="style3" align="center">
+                <asp:Image ID="Image1" runat="server" Height="40px" ImageAlign="Middle" 
+                    ImageUrl="~/images.jpg" style="margin-bottom: 0px" Width="40px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="style5" align="center">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Registration.aspx">Registration</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Login.aspx">Login</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/About Us.aspx">About Us</asp:HyperLink>
+            </td>
+            <td class="style4">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" class="style7">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td align="center">
+                <asp:Image ID="Image2" runat="server" Height="160px" ImageUrl="~/Pictures/4.jpg" Width="160px" /><br /><br />
+                <asp:Image ID="Image3" runat="server" Height="160px" ImageUrl="~/Pictures/5.jpg" Width="160px" /><br /><br />
+                <asp:Image ID="Image4" runat="server" Height="160px" ImageUrl="~/Pictures/6.png" Width="160px" />
+            </td>
+        </tr>
+    </table>
+    
+    </form>
+</body>
+</html>

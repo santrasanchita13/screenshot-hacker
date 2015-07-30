@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Profile</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 100%;
+        }
+        .style2
+        {
+            height: 49px;
+        }
+        .style3
+        {
+            height: 49px;
+            width: 100%;
+        }
+        .style4
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="font-family: Calibri; font-size: large; color: #008080; background-image: url('/WebSite3/2.jpg'); background-repeat: repeat; background-attachment: fixed; visibility: visible; height: 1000px; font-weight: bold; top: 0px; vertical-align:top">
+    
+    <table class="style1">
+        <tr>
+            <td class="style3" align="center">
+            <h1 style="border-style: double; border-width: thick; color:Olive; font-family: 'Lucida Calligraphy'; font-size: xx-large; font-weight: bold; font-style: normal; background-color: #FBCDA4; width: 233px;">Screenshot</h1>
+                You are logged in as <asp:Label ID="Label1" runat="server" OnLoad="Label1_Load"></asp:Label>
+            </td>
+            <td class="style2" align="center">
+            <asp:Image ID="Image1" runat="server" Height="40px" ImageAlign="Middle" 
+                    ImageUrl="~/images.jpg" style="margin-bottom: 0px" Width="40px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="style3" align="center">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home1.aspx">Home</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Profile.aspx">Profile</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Add Employees.aspx">Add Employees</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Screenshots.aspx">Screenshots</asp:HyperLink>
+            </td>
+            <td class="style2">
+                <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click" CausesValidation="False">Logout</asp:LinkButton>
+            </td>
+        </tr>
+        <tr>
+            <td class="style4">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td align="center"><asp:Image ID="Image2" runat="server" Height="160px" ImageUrl="~/Pictures/5.jpg" Width="160px" /><br /><br />
+                <asp:Image ID="Image3" runat="server" Height="160px" ImageUrl="~/Pictures/7.jpg" Width="160px" /><br /><br />
+                <asp:Image ID="Image4" runat="server" Height="160px" ImageUrl="~/Pictures/8.jpg" Width="160px" /></td>
+        </tr>
+    </table>
+    
+    </form>
+</body>
+</html>
